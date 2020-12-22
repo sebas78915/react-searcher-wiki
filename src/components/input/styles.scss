@@ -1,6 +1,11 @@
 .input-field {
   padding: 5px 10px;
   border: 1px solid grey;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 24px;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
 }
