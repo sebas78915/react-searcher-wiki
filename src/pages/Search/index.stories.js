@@ -1,9 +1,22 @@
 import React from 'react';
+import moxios from 'moxios';
 
 import Page from '.';
 
+moxios.install();
+
+moxios.stubRequest('https://www.mediawiki.org/w/api.php?origin=*&action=opensearch&search=michae&limit=50', {
+  status: 200,
+  response: ["michae",["Michael Jackson effect","ResourceLoader/Requirements/Michael Dale"],["",""],["https://www.mediawiki.org/wiki/Michael_Jackson_effect","https://www.mediawiki.org/wiki/ResourceLoader/Requirements/Michael_Dale"]]
+})
+
+moxios.stubRequest('https://www.mediawiki.org/w/api.php?origin=*&action=opensearch&search=edfwcevf&limit=50', {
+  status: 200,
+  response: ["edfwcevf",[],[],[]]
+})
+
 export default {
-  title: 'Components/Search',
+  title: 'Pages/Search',
   component: Page,
 };
 
