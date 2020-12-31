@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component Without props Should match snapshot 1`] = `
+<Container>
+  <Children
+    articles={Array []}
+    onSearchChange={[Function]}
+    searchValue=""
+  >
+    <div>
+      Test
+    </div>
+  </Children>
+</Container>
+`;

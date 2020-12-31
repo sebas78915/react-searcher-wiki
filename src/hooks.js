@@ -22,6 +22,8 @@ export const useSearch = (query = '', limit = 10) => {
 
     cancelToken.current = axios.CancelToken.source();
 
+    setState({...state, status: 'PENDING'})
+
     axios.get(`https://www.mediawiki.org/w/api.php?origin=*&action=opensearch&search=${query}&limit=${limit}`, {
       cancelToken: cancelToken.current.token
     })
