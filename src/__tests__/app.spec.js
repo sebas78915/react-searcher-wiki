@@ -4,7 +4,7 @@ import { mount } from 'enzyme';
 import App from '../App';
 import { MemoryRouter } from 'react-router-dom';
 
-const render = (initialEntries) => mount(<MemoryRouter initialEntries={initialEntries}><App /></MemoryRouter>) 
+const render = (initialEntries) => mount(<MemoryRouter keyLength={0} initialEntries={initialEntries}><App /></MemoryRouter>) 
 
 describe('App component', () => {
   let sut;

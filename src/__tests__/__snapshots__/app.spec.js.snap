@@ -7,6 +7,7 @@ exports[`App component when home page is rendered should match home page snapsho
       "/",
     ]
   }
+  keyLength={0}
 >
   <Router
     history={
@@ -18,7 +19,6 @@ exports[`App component when home page is rendered should match home page snapsho
         "entries": Array [
           Object {
             "hash": "",
-            "key": "xigps8",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -32,7 +32,6 @@ exports[`App component when home page is rendered should match home page snapsho
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "xigps8",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -58,7 +57,6 @@ exports[`App component when home page is rendered should match home page snapsho
           location={
             Object {
               "hash": "",
-              "key": "xigps8",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -76,7 +74,6 @@ exports[`App component when home page is rendered should match home page snapsho
                 "entries": Array [
                   Object {
                     "hash": "",
-                    "key": "xigps8",
                     "pathname": "/",
                     "search": "",
                     "state": undefined,
@@ -90,7 +87,6 @@ exports[`App component when home page is rendered should match home page snapsho
                 "listen": [Function],
                 "location": Object {
                   "hash": "",
-                  "key": "xigps8",
                   "pathname": "/",
                   "search": "",
                   "state": undefined,
@@ -102,7 +98,6 @@ exports[`App component when home page is rendered should match home page snapsho
             location={
               Object {
                 "hash": "",
-                "key": "xigps8",
                 "pathname": "/",
                 "search": "",
                 "state": undefined,
@@ -208,6 +203,7 @@ exports[`App component when not found page is rendered should match not found pa
       "/dsavs",
     ]
   }
+  keyLength={0}
 >
   <Router
     history={
@@ -219,7 +215,6 @@ exports[`App component when not found page is rendered should match not found pa
         "entries": Array [
           Object {
             "hash": "",
-            "key": "mlw7fy",
             "pathname": "/dsavs",
             "search": "",
             "state": undefined,
@@ -233,7 +228,6 @@ exports[`App component when not found page is rendered should match not found pa
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "mlw7fy",
           "pathname": "/dsavs",
           "search": "",
           "state": undefined,
@@ -258,7 +252,6 @@ exports[`App component when not found page is rendered should match not found pa
           location={
             Object {
               "hash": "",
-              "key": "mlw7fy",
               "pathname": "/dsavs",
               "search": "",
               "state": undefined,
@@ -275,7 +268,6 @@ exports[`App component when not found page is rendered should match not found pa
                 "entries": Array [
                   Object {
                     "hash": "",
-                    "key": "mlw7fy",
                     "pathname": "/dsavs",
                     "search": "",
                     "state": undefined,
@@ -289,7 +281,6 @@ exports[`App component when not found page is rendered should match not found pa
                 "listen": [Function],
                 "location": Object {
                   "hash": "",
-                  "key": "mlw7fy",
                   "pathname": "/dsavs",
                   "search": "",
                   "state": undefined,
@@ -301,7 +292,6 @@ exports[`App component when not found page is rendered should match not found pa
             location={
               Object {
                 "hash": "",
-                "key": "mlw7fy",
                 "pathname": "/dsavs",
                 "search": "",
                 "state": undefined,
